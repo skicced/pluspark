@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import LogoMobile from "../assets/react.svg";
-import LogoDesktop from "../assets/react.svg";
+import LogoMobile from "../assets/logo-bg.png";
+import LogoDesktop from "../assets/logo-bg.png";
 
 const navigation = [
   { name: "Kezdőlap", href: "#hero", current: true },
@@ -57,7 +57,7 @@ export default function Nav() {
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             {/* Mobile menu button */}
-            <Disclosure.Button className="group relative inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-gray-700 hover:text-white  focus:ring-white">
+            <Disclosure.Button className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white  focus:ring-white">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Open main menu</span>
               <Bars3Icon
