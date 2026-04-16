@@ -1,10 +1,10 @@
 export default function LogoCarousel() {
   const logos = [
-    "/Ref/Logo/novotel.png",
-    "/Ref/Logo/starpark.png",
-    "/Ref/Logo/hatvani.png",
-    "/Ref/Logo/trofea.png",
-    "/Ref/Logo/praktiker.png",
+    "/Logo/novotel.png",
+    "/Logo/starpark.png",
+    "/Logo/hatvani.png",
+    "/Logo/trofea.png",
+    "/Logo/praktiker.png",
   ];
 
   const looped = [...logos, ...logos];
